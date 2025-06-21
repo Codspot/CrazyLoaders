@@ -1,0 +1,43 @@
+.squid-svg-loader {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.shape {
+  width: 60px;
+  height: 60px;
+  fill: none;
+  stroke: white;
+  stroke-width: 6;
+  opacity: 0.5;
+  animation: glowCycle 2.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 0px transparent);
+}
+
+.circle {
+  animation-delay: 0s;
+}
+.triangle {
+  animation-delay: 0.4s;
+}
+.square {
+  animation-delay: 0.8s;
+}
+
+@keyframes glowCycle {
+  0%, 100% {
+    stroke: white;
+    opacity: 0.5;
+    transform: scale(1);
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  40% {
+    stroke: #ff0077;
+    opacity: 1;
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px #ff0077) drop-shadow(0 0 20px #ff0077);
+  }
+}

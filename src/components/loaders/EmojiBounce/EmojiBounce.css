@@ -1,0 +1,25 @@
+/* src/components/loaders/EmojiBounce.css */
+
+.emoji-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: 100px;
+}
+
+.emoji {
+  font-size: 2rem;
+  animation: bounce 1s ease-in-out infinite;
+  display: inline-block;
+  transform-origin: center;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.2);
+  }
+}
