@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CrazyLoaders/static/css/main.4957d041.css",
+    "main.js": "/CrazyLoaders/static/js/main.4b9e0e0d.js",
+    "index.html": "/CrazyLoaders/index.html",
+    "main.4957d041.css.map": "/CrazyLoaders/static/css/main.4957d041.css.map",
+    "main.4b9e0e0d.js.map": "/CrazyLoaders/static/js/main.4b9e0e0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4957d041.css",
+    "static/js/main.4b9e0e0d.js"
+  ]
+}
