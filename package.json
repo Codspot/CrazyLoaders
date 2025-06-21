@@ -1,7 +1,7 @@
 {
   "name": "crazy-loader-showcase",
   "version": "0.1.0",
-  "homepage": "https://codspot.github.io/CrazyLoaders",
+  "homepage": "https://crazyspinners.codspot.com",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
